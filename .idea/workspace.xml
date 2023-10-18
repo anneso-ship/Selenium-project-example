@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb51b31-b2b0-476c-9d60-33f104489eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestFormAutofillWithBadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestFormAutofillWithGoodData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestSubmitForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,30 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/asbamoni/Intellij Idea/SeleniumProject",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asbamoni/Intellij Idea/Front-Oken-Car&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asbamoni\Intellij Idea\SeleniumProject\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercice6">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="Application.TestSubmitForm">
+    <configuration name="Exercice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice2" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +69,7 @@
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exos.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice4" />
+    <configuration name="TestFormAutofillWithBadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestFormAutofillWithBadData" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exos.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice5" />
+    <configuration name="TestFormAutofillWithGoodData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestFormAutofillWithGoodData" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exos.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice6" />
+    <configuration name="TestSubmitForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestSubmitForm" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exos.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercice6" />
-        <item itemvalue="Application.Exercice5" />
-        <item itemvalue="Application.Exercice4" />
+        <item itemvalue="Application.TestSubmitForm" />
+        <item itemvalue="Application.TestFormAutofillWithGoodData" />
+        <item itemvalue="Application.TestFormAutofillWithBadData" />
         <item itemvalue="Application.Exercice3" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Exercice2" />
       </list>
     </recent_temporary>
   </component>

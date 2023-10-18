@@ -27,7 +27,7 @@ public class Exercice2 {
         driver.manage().window().fullscreen();
         //Dimension manuel de l'ecran
         Dimension size = driver.manage().window().getSize();
-      //  driver.manage().window().setSize(new Dimension(900,500));
+        driver.manage().window().setSize(new Dimension(640,720));
         //Affichage dimensions de notre page web
         System.out.println("Largeur : "+driver.manage().window().getSize().getWidth());
         System.out.println("Hauteur : "+driver.manage().window().getSize().getHeight());
