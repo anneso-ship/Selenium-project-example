@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb51b31-b2b0-476c-9d60-33f104489eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestFormAutofillWithBadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestFormAutofillWithGoodData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestSubmitForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DeleteManagerTestAutomatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayManagerListTestAutomatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayOneManagerTestAutomatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/NewManagerTestAutomatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/UpdateManagerTestAutomatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exos/Exercice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestSubmitForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/TestSubmitForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,13 @@
       <recent name="C:\Users\asbamoni\Intellij Idea\SeleniumProject\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSubmitForm">
-    <configuration name="Exercice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice2" />
+  <component name="RunManager" selected="Application.DisplayOneManagerTestAutomatic">
+    <configuration name="DeleteManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.DeleteManagerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exos.Exercice3" />
+    <configuration name="DisplayManagerListTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.DisplayManagerListTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFormAutofillWithBadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestFormAutofillWithBadData" />
+    <configuration name="DisplayOneManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.DisplayOneManagerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFormAutofillWithGoodData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestFormAutofillWithGoodData" />
+    <configuration name="NewManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.NewManagerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSubmitForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.TestSubmitForm" />
+    <configuration name="UpdateManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.UpdateManagerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSubmitForm" />
-        <item itemvalue="Application.TestFormAutofillWithGoodData" />
-        <item itemvalue="Application.TestFormAutofillWithBadData" />
-        <item itemvalue="Application.Exercice3" />
-        <item itemvalue="Application.Exercice2" />
+        <item itemvalue="Application.DisplayOneManagerTestAutomatic" />
+        <item itemvalue="Application.DisplayManagerListTestAutomatic" />
+        <item itemvalue="Application.DeleteManagerTestAutomatic" />
+        <item itemvalue="Application.NewManagerTestAutomatic" />
+        <item itemvalue="Application.UpdateManagerTestAutomatic" />
       </list>
     </recent_temporary>
   </component>
