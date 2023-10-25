@@ -25,12 +25,12 @@ public class UpdateManagerTestAutomatic {
 
         //remplissage formulaire de mise a jour (effacer ancien contenu et le remplacer
         driver.findElement(By.name("lastname")).clear();
-        driver.findElement(By.name("lastname")).sendKeys("Ndiaye"); // Nom
+        driver.findElement(By.name("lastname")).sendKeys("Ndiay~]e"); // Nom
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
         driver.findElement(By.name("firstname")).clear();
-        driver.findElement(By.name("firstname")).sendKeys("Ibrahima"); // Prénom
+        driver.findElement(By.name("firstname")).sendKeys(" "); // Prénom
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
