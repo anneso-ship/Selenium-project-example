@@ -16,7 +16,7 @@ public class NewOwnerTestAutomatic {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/home");
+        driver.get("http://oken-cars.oken.lan/home");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();
@@ -32,10 +32,10 @@ public class NewOwnerTestAutomatic {
 
         //Remplissage du formulaire
         //Automatisation remplissage et validation d'un formulaire (VALIDITE)
-        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("So123w"); // Nom
+        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("Sow"); // Nom
         driver.findElement(By.xpath("//*[@id=\"lastname\"]")).sendKeys("Mamadou"); // Prénom
-        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("mamadou.sowhotmail.fr"); // Adresse mail
-        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("+221 771234567"); // Numéro de téléphone
+        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("+221 771234567"); // Adresse mail
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("mamadou.sow@hotmail.fr"); // Numéro de téléphone
         driver.findElement(By.xpath("//*[@id=\"address\"]")).sendKeys("12 Rue Dakar, Dakar"); // Adresse
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Senegal123!"); // Mot de passe
         driver.findElement(By.xpath("/html/body/app-root/app-register-owner/div/div/div[2]/div[6]/div[2]/input")).sendKeys("Senegal123!"); // Confirmation du mot de passe

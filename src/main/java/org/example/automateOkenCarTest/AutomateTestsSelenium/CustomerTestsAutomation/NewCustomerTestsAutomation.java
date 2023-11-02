@@ -16,7 +16,7 @@ public class NewCustomerTestsAutomation {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/home");
+        driver.get("http://oken-cars.oken.lan/home");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();
@@ -34,8 +34,8 @@ public class NewCustomerTestsAutomation {
         //Automatisation remplissage et validation d'un formulaire (VALIDITE)
         driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("Sow");
         driver.findElement(By.xpath("//*[@id=\"lastname\"]")).sendKeys("Mamadou");
-        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("mamadou.sow@hotmail.fr");
-        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("+221 771234567");
+        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("+221 771234567");
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("mamadou.sow@hotmail.fr");
         driver.findElement(By.xpath("//*[@id=\"address\"]")).sendKeys("12 Rue Dakar, Dakar");
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Senegal123!");
         driver.findElement(By.xpath("/html/body/app-root/app-register-customer/div/div/div[2]/div[6]/div[2]/input")).sendKeys("Senegal123!");

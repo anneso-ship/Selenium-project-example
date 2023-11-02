@@ -14,14 +14,14 @@ public class UpdateDriverTestAutomatic {
         driver.manage().window().maximize();
 
         //Accès à la liste des managers
-        driver.get("http://oken-cars.local/driver-list");
+        driver.get("http://oken-cars.oken.lan/driver-list");
 
         //Accès au boutton de mise à jour
         driver.findElement(By.xpath("/html/body/app-root/app-driver-list/div/table/tbody/tr/td[5]/div/div[2]/button")).click();
 
         //remplissage formulaire de mise a jour (effacer ancien contenu et le remplacer
         driver.findElement(By.xpath("//*[@id=\"firstname\"]")).clear();
-        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("///");
+        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("///123");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 

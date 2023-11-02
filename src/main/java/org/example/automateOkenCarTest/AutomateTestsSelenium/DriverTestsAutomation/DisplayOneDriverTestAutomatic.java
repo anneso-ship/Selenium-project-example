@@ -13,7 +13,7 @@ public class DisplayOneDriverTestAutomatic {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(25));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/driver-list");
+        driver.get("http://oken-cars.oken.lan/driver-list");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();

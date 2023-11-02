@@ -5,28 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb51b31-b2b0-476c-9d60-33f104489eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CarTestsAutomation/DeleteCarTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CarTestsAutomation/DisplayCarListTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CarTestsAutomation/DisplayOneCarTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CarTestsAutomation/NewCarTestsAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CarTestsAutomation/UpdateCarTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DeleteCustomerTestsAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayCustomerListTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayOneCustomerTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/NewCustomerTestsAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/UpdateCustomerTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DeleteDriverTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayDriverListTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayOneDriverTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/NewDriverTestsAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/UpdateDriverTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/DeleteOwnerTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/DisplayOneOwnerTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/DisplayOwnerListTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/NewOwnerTestAutomatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/UpdateOwnerTestAutomatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DeleteCustomerTestsAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DeleteCustomerTestsAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayCustomerListTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayCustomerListTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayOneCustomerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/DisplayOneCustomerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/NewCustomerTestsAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/NewCustomerTestsAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/UpdateCustomerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/CustomerTestsAutomation/UpdateCustomerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DeleteDriverTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DeleteDriverTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayDriverListTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayDriverListTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayOneDriverTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/DisplayOneDriverTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/NewDriverTestsAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/NewDriverTestsAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/UpdateDriverTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/DriverTestsAutomation/UpdateDriverTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DeleteManagerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DeleteManagerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayManagerListTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayManagerListTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayOneManagerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/DisplayOneManagerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/NewManagerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/NewManagerTestAutomatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/UpdateManagerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/ManagerTestsAutomation/UpdateManagerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/NewOwnerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/NewOwnerTestAutomatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/UpdateOwnerTestAutomatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/automateOkenCarTest/AutomateTestsSelenium/OwnerTestsAutomation/UpdateOwnerTestAutomatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +62,13 @@
       <recent name="C:\Users\asbamoni\Intellij Idea\SeleniumProject\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewManagerTestAutomatic">
-    <configuration name="DisplayOneDriverTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.DriverTestsAutomation.DisplayOneDriverTestAutomatic" />
+  <component name="RunManager" selected="Application.UpdateDriverTestAutomatic">
+    <configuration name="DeleteCustomerTestsAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.CustomerTestsAutomation.DeleteCustomerTestsAutomation" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.DriverTestsAutomation.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.CustomerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.NewManagerTestAutomatic" />
+    <configuration name="NewOwnerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.OwnerTestsAutomation.NewOwnerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.OwnerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateManagerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.UpdateManagerTestAutomatic" />
+    <configuration name="UpdateOwnerTestAutomatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.automateOkenCarTest.AutomateTestsSelenium.OwnerTestsAutomation.UpdateOwnerTestAutomatic" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.ManagerTestsAutomation.*" />
+          <option name="PATTERN" value="org.example.automateOkenCarTest.AutomateTestsSelenium.OwnerTestsAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewManagerTestAutomatic" />
         <item itemvalue="Application.UpdateDriverTestAutomatic" />
-        <item itemvalue="Application.DisplayOneDriverTestAutomatic" />
         <item itemvalue="Application.NewDriverTestsAutomation" />
-        <item itemvalue="Application.UpdateManagerTestAutomatic" />
+        <item itemvalue="Application.UpdateOwnerTestAutomatic" />
+        <item itemvalue="Application.NewOwnerTestAutomatic" />
+        <item itemvalue="Application.DeleteCustomerTestsAutomation" />
       </list>
     </recent_temporary>
   </component>

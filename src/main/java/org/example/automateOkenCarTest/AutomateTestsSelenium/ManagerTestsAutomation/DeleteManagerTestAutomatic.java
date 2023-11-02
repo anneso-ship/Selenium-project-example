@@ -15,7 +15,7 @@ public class DeleteManagerTestAutomatic {
         //maximiser affichage ecran
         driver.manage().window().maximize();
 
-        driver.get("http://oken-cars.local/manager-list");
+        driver.get("http://oken-cars.oken.lan/manager-list");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));//Timer 25 secondes
 

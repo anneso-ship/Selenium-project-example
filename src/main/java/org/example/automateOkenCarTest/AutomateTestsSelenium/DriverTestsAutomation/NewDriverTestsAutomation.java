@@ -3,8 +3,10 @@ package org.example.automateOkenCarTest.AutomateTestsSelenium.DriverTestsAutomat
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
@@ -16,7 +18,7 @@ public class NewDriverTestsAutomation {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/home");
+        driver.get("http://oken-cars.oken.lan/home");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();
@@ -32,14 +34,17 @@ public class NewDriverTestsAutomation {
 
         //Remplissage du formulaire
         //Automatisation remplissage et validation d'un formulaire (VALIDITE)
-        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("Sow");
-       // driver.findElement(By.xpath("//*[@id=\"lastname\"]")).sendKeys("Mamadou");
-        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("mamadou.sow@hotmail.fr");
-        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("+221 771234567");
+        driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("Sow123");
+        driver.findElement(By.xpath("//*[@id=\"lastname\"]")).sendKeys("Mamadou");
+        driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("+221 771234567");
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("mamadou.sowhotmail.fr");
         driver.findElement(By.xpath("//*[@id=\"address\"]")).sendKeys("12 Rue Dakar, Dakar");
         driver.findElement(By.name("password")).sendKeys("Senegal123!");
         driver.findElement(By.name("confirmPassword")).sendKeys("Senegal123!");
-        driver.findElement(By.name("permit")).sendKeys("B~]");
+
+        WebElement selectPermitType= driver.findElement(By.id("permit"));
+        Select select_permit_type = new Select(selectPermitType);
+        select_permit_type.selectByValue("D");
 
         //Simuler l'appui sur la touche tabulation
         action.sendKeys(Keys.TAB).perform();

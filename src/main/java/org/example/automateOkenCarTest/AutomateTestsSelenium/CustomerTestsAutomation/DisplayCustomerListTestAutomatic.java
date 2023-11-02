@@ -8,7 +8,7 @@ public class DisplayCustomerListTestAutomatic {
         WebDriver driver = new ChromeDriver();
 
         //Accès à la page web
-        driver.get("http://oken-cars.local/customer-list");
+        driver.get("http://oken-cars.oken.lan/customer-list");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();

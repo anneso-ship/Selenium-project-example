@@ -18,7 +18,7 @@ public class NewManagerTestAutomatic {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/home");
+        driver.get("http://oken-cars.oken.lan/home");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();

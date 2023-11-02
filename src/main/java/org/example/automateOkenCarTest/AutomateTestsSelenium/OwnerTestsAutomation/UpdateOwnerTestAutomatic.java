@@ -13,13 +13,13 @@ public class UpdateOwnerTestAutomatic {
         //Attente avant bon remplissage
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(25));//Timer 25 secondes
 
-        driver.get("http://oken-cars.local/owner-list");
+        driver.get("http://oken-cars.oken.lan/owner-list");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();
 
         //Accès au boutton de mise à jour
-        driver.findElement(By.xpath("/html/body/app-root/app-owner-list/div/table/tbody/tr[2]/td[5]/div/div[2]/button")).click();
+        driver.findElement(By.xpath("/html/body/app-root/app-owner-list/div/table/tbody/tr/td[5]/div/div[2]/button")).click();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
         driver.findElement(By.name("email")).clear();
@@ -28,7 +28,9 @@ public class UpdateOwnerTestAutomatic {
         //remplissage formulaire de mise a jour (effacer ancien contenu et le remplacer
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
         driver.findElement(By.name("lastname")).clear();
-        driver.findElement(By.name("lastname")).sendKeys("Ndiay~]e"); // Nom
+        driver.findElement(By.name("lastname")).sendKeys("Ndiaye"); // Nom
+
+        driver.findElement(By.xpath("/html/body/app-root/app-edit-owner/div/div/div[2]/button")).click();
 
 
     }

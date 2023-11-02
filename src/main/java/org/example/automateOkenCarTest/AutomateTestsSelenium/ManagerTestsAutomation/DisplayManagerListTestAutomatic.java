@@ -13,7 +13,7 @@ public class DisplayManagerListTestAutomatic {
         WebDriver driver = new ChromeDriver();
 
         //Accès à la page web
-        driver.get("http://oken-cars.local/manager-list");
+        driver.get("http://oken-cars.oken.lan/manager-list");
 
         //maximiser affichage ecran
         driver.manage().window().maximize();

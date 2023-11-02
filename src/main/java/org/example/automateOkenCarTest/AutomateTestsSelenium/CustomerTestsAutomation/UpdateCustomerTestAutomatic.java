@@ -14,7 +14,7 @@ public class UpdateCustomerTestAutomatic {
         driver.manage().window().maximize();
 
         //Accès à la liste des managers
-        driver.get("http://oken-cars.local/customer-list");
+        driver.get("http://oken-cars.oken.lan/customer-list");
 
         //Accès au boutton de mise à jour
         driver.findElement(By.xpath("/html/body/app-root/app-customer-list/div/table/tbody/tr[1]/td[5]/div/div[2]/button")).click();

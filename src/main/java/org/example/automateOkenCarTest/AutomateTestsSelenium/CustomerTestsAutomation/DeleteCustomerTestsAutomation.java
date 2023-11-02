@@ -14,7 +14,7 @@ public class DeleteCustomerTestsAutomation {
         //maximiser affichage ecran
         driver.manage().window().maximize();
 
-        driver.get("http://oken-cars.local/customer-list");
+        driver.get("http://oken-cars.oken.lan/customer-list");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));//Timer 25 secondes
 
