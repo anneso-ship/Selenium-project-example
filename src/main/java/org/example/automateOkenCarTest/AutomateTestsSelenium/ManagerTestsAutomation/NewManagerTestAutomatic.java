@@ -10,7 +10,7 @@ import java.time.Duration;
 
 
 public class NewManagerTestAutomatic {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
         Actions action = new Actions(driver);
@@ -25,27 +25,36 @@ public class NewManagerTestAutomatic {
 
         //Aller dans la partie manager
         driver.findElement(By.xpath("/html/body/app-root/app-home/div/a[2]")).click();
+        Thread.sleep(1000); //Attendre 1 seconde
 
         //Aller dans la partie manager "inscription"
         driver.findElement(By.xpath("/html/body/app-root/app-login-manager/div/div[2]/table/tr/td[2]/a")).click();
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));//Timer 25 secondes
-
+        Thread.sleep(1000);
 
         //Remplissage du formulaire
         //Automatisation remplissage et validation d'un formulaire (VALIDITE)
         driver.findElement(By.name("lastname")).sendKeys("Sow"); // Nom
+        Thread.sleep(1000);
+
         driver.findElement(By.name("firstname")).sendKeys("Mamadou"); // Prénom
+        Thread.sleep(1000);
+
         driver.findElement(By.name("email")).sendKeys("mamadou.sow@hotmail.fr"); // Adresse mail
+        Thread.sleep(1000);
+
         driver.findElement(By.name("phone")).sendKeys("+221 771234567"); // Numéro de téléphone
+        Thread.sleep(1000);
+
         driver.findElement(By.name("address")).sendKeys("12 Rue Dakar, Dakar"); // Adresse
+        Thread.sleep(1000);
+
         driver.findElement(By.name("password")).sendKeys("Senegal123!"); // Mot de passe
         driver.findElement(By.name("confirmPassword")).sendKeys("Senegal123!"); // Confirmation du mot de passe
 
         //Simuler l'appui sur la touche tabulation
         action.sendKeys(Keys.TAB).perform();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(20));//Timer 25 secondes
+        Thread.sleep(1000);
 
         //Validation du formulaire
         driver.findElement(By.xpath("/html/body/app-root/app-register-manager/div/div/form/button")).click();
